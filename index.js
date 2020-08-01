@@ -91,12 +91,12 @@ class App extends Component {
       Header: 'Quants Score',
       accessor: 'quants',
       Cell: row => {
-        if (row.value<=160 && row.value>=150){
+        if (row.value<160 && row.value>=150){
 
-        row.styles['backgroundColor'] = 'khaki';
+        row.styles['backgroundColor'] = 'Crimson';
 
         }
-        else if(row.value>160){
+        else if(row.value>=160){
            row.styles['backgroundColor'] = 'lightblue';
         }
         else{

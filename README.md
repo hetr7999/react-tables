@@ -1,6 +1,6 @@
 # react-tables
 
-Goal: Implement conditional formatting on atleast one column of a react-table based on your understanding of the react-table component library. Use any data to fill in the table and implement appropriate logic.
+Goal: Implement conditional formatting on atleast one column of a react-table based on your understanding of the react-table component library. 
 
 Learning outcomes:
 --> Data Source :- GRE Test Scores.
